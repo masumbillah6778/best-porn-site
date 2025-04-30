@@ -1,4 +1,5 @@
 @import url('https://masumbillah6778.github.io/fonts/bangla/english-custom-font.css');
+@import url('https://masumbillah6778.github.io/fonts/bangla/bangla-custom-font.css');
 
 * {
   box-sizing: border-box;
@@ -6,10 +7,12 @@
 
 h1 {
   color: red;
+  font-family: 'solaiman-lipi';
 }
 
 h2 {
   color: blue;
+  font-family: 'solaiman-lipi';
 }
 
 div.gallery {
