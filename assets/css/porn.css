@@ -1,0 +1,56 @@
+@import url('https://masumbillah6778.github.io/fonts/bangla/english-custom-font.css');
+
+* {
+  box-sizing: border-box;
+}
+
+div.gallery {
+  border: 2px solid red;
+  box-shadow: ;
+}
+
+div.gallery:hover {
+  border: 2px solid green;
+}
+
+div.gallery img {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  display: block;
+}
+
+div.desc {
+  color: red;
+  font-size: 18px;
+  font-family: times;
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
