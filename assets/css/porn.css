@@ -23,14 +23,16 @@ div.gallery img {
 }
 
 div.desc {
-  color: red;
-  font-size: 18px;
+  color: green;
+  font-size: 30px;
   font-family: times;
+  font-weight: bold;
   padding: 15px;
   text-align: center;
 }
 
 .responsive {
+  margin: 6px 0;
   padding: 0 6px;
   float: left;
   width: 24.99999%;
@@ -44,6 +46,11 @@ div.desc {
 }
 
 @media only screen and (max-width: 500px) {
+  div.desc {
+    color: red;
+    font-size: 15px;
+  }
+  
   .responsive {
     width: 100;
   }
