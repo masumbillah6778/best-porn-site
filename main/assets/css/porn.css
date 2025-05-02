@@ -10,7 +10,6 @@
 .content {
   width: 100%;
   min-height: 100vh;
-  margin-top: 100px;
   padding: 10px;
   position: relative;
   border: 2px solid red;
