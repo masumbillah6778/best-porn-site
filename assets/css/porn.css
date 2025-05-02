@@ -2,7 +2,18 @@
 @import url('https://masumbillah6778.github.io/fonts/bangla/bangla-custom-font.css');
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 100px;
+  padding: 10px;
+  position: relative;
+  border: 2px solid red;
 }
 
 h1 {
@@ -72,4 +83,35 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+
+
+div.note-text {
+  background-color: red;
+  width: 100%;
+  height: 80px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: solaiman-lipi;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 3px solid blue;
+}
+
+
+
+
+
+/* ==================== MOBILE SCREEN SIZE ==================== */  
+  
+@media only screen and (max-width: 400px) {
+  .content {
+    background-color: aqua;
+    width: 100%;
+  }
 }
