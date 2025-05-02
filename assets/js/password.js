@@ -9,7 +9,7 @@ function passcheck(){
         return false;
     }
     if (document.getElementById('pass1').value == Password) {
-        window.open("/main/index2.html", "_blank");
+        window.open("main/index2.html", "_blank");
     }
 
 }
