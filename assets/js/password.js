@@ -9,7 +9,7 @@ function passcheck(){
         return false;
     }
     if (document.getElementById('pass1').value == Password) {
-        window.open("https://masumbillah6778.github.io/best-porn-site", "_blank");
+        window.open("/main/index2.html", "_blank");
     }
 
 }
