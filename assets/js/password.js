@@ -5,7 +5,7 @@ var Password ="1234";
 function passcheck(){
     if (document.getElementById('pass1').value != Password) {
         errorText.style.display = "block";
-        errorText.textContent = "ERROR! Password Not Match.";
+        errorText.textContent = "দুঃখিত! পাসওয়ার্ড মিলছে না।";
         return false;
     }
     if (document.getElementById('pass1').value == Password) {
