@@ -112,9 +112,17 @@ div.desc {
 }
 
 @media only screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
   .content {
-    background-color: aqua;
+    background: aqua;
     width: 100%;
+    min-height: 100vh;
+    border: 2px solid black;
   }
   
   div.desc {
