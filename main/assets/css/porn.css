@@ -103,13 +103,6 @@ div.desc {
 
 
 /* ==================== MOBILE SCREEN SIZE ==================== */  
-  
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
 
 @media only screen and (max-width: 500px) {
   * {
@@ -138,6 +131,19 @@ div.desc {
     overflow-y: scroll;
     border: 2px solid black;
     box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
+    }
+  
+  div.desc {
+    color: red;
+    font-size: 20px;
+    }
+  
+  .responsive {
+    width: 24.99999%;
+    aspect-ratio: 9/9;
+    margin: 6px 0;
+    padding: 0 6px;
+    float: left;
     }
   
   #footer {
